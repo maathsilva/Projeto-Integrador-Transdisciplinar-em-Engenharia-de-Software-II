@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #91cad6;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+
+.login-card, .register-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #91cad6;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #91cad6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #82b8c1;
+}
+
+p {
+    margin-top: 15px;
+    color: #666;
+}
+
+p span {
+    color: #91cad6;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p span:hover {
+    text-decoration: underline;
+}
+
+.back-button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #91cad6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #82b8c1;
+}
+
+.link {
+    text-decoration: none;
+    color: #91cad6;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
